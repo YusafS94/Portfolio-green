@@ -87,3 +87,11 @@ section {
 img {
   max-width: 100%;
 }
+
+.contentblock {
+  display: flex;
+  flex-direction: column;
+}
+.contentblock h2 {
+  margin: 0;
+}
