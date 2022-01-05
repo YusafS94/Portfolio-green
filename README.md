@@ -5,4 +5,6 @@
 <h3>Future improvements list:</h3>
 	<ul>
 		<li>Dark Mode switch</li>
+		<li>SVG background animations</li>
+		<li>Incorporating 3D objects created from Blender or Spline</li>
 	</ul>
