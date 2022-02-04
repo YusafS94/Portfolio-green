@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP University Assignment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/imgname.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="../../index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="../../index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="../../index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        University Project <strong>PHP and SQL Assignment</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        A database driven assignment
+      </p>
+      <img src="img/Header-Screenshot.png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        In this assignment we were tasked to create a PHP based, database driven
+        dynamic website which would connect to a database using SQL, and
+        generate content for the page from the database.
+      </p>
+      <img src="img/Paragraph-Screenshot.png" alt="" />
+      <p>
+        The website had to include functionality to add a new hotel, view all
+        hotels, search for a hotel, use SQL joins to add amenities to hotels
+        (many to many relationships), use dropdown menus and radio buttons etc
+        where appropriate when creating a new hotel, and authenticate/authorise
+        users. There was an "admin" user who would ideally be given permission
+        to create a new hotel, which the "standard" user would not be able to
+        do.
+      </p>
+      <p>
+        This assignment taught me how to be comfortable generating content for a
+        web page using PHP, and how to use MVC architecture to keep individual
+        components independant. Using MVC also helped me to not reuse code,
+        saving lots of time when it came time to edit details/sections of the
+        site.
+      </p>
+      <p>
+        <a
+          target="blank"
+          href="https://selene.hud.ac.uk/u1462460/Yusaf_Saddiq-Assignment/Controllers/index.php"
+          >Here is the link to the website.</a
+        >
+        Use email "y.miandad@assign3.ac.uk" and password "letmein" to view the
+        admin account so you can add a new hotel. For the standard account the
+        email is "k.l.hutton@assign3.ac.uk" and the password is "password".
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:u1462460@unimail.hud.ac.uk" class="footer__link"
+        >Student Email: <br />
+        u1462460@unimail.hud.ac.uk</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com">
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
